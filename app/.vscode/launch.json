@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "tasks": {
+        "build": {
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/FTDI_I2C.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    },
+    "configurations": [
+        {
+            "name": ".NET Core Launch (Windows Forms)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build", // Specifies the build task to run before launching the application
+            "program": "${workspaceFolder}/bin/Debug/net7.0-windows/FTDI_I2C.exe", // Path to the executable to debug
+            "args": [], // Command-line arguments passed to the program
+            "cwd": "${workspaceFolder}", // Current working directory for the program
+            "stopAtEntry": false, // Whether to stop at the entry point of the program
+            "serverReadyAction": { // Action to take when the server is ready (for web applications)
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": { // Environment variables for the program
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": { // Mapping of source files for debugging
+                "/Views": "${workspaceFolder}/Views"
+            }
+        }
+    ]
+}

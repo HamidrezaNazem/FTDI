@@ -1,0 +1,88 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "clean",
+                "${workspaceFolder}/FTDI_I2C.csproj"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "pre-build0",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "Copy-Item",
+                "-Path",
+                "${workspaceFolder}\\..\\ftd2xx\\dll\\amd64\\ftd2xx.lib",
+                "-Destination",
+                "${workspaceFolder}/bin/Debug/net7.0-windows/",
+                "-Force"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "clean"
+        },
+        {
+            "label": "pre-build1",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "Copy-Item",
+                "-Path",
+                "${workspaceFolder}\\..\\ftd2xx\\FTD2XX_NET_v1.1.0\\FTD2XX_NET.dll",
+                "-Destination",
+                "${workspaceFolder}/bin/Debug/net7.0-windows/",
+                "-Force"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "pre-build0"
+        },
+        {
+            "label": "pre-build2",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "Copy-Item",
+                "-Path",
+                "${workspaceFolder}\\..\\ftd2xx\\ftd2xx.h",
+                "-Destination",
+                "${workspaceFolder}/bin/Debug/net7.0-windows/",
+                "-Force"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "pre-build1"
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/FTDI_I2C.csproj"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "pre-build2"
+        }
+    ]
+}

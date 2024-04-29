@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FTDI_I2C/1.0.0": {
+        "dependencies": {
+          "FTD2XX_NET": "1.1.0.0"
+        },
+        "runtime": {
+          "FTDI_I2C.dll": {}
+        }
+      },
+      "FTD2XX_NET/1.1.0.0": {
+        "runtime": {
+          "FTD2XX_NET.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FTDI_I2C/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FTD2XX_NET/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

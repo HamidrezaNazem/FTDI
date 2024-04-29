@@ -1,0 +1,15 @@
+C:\Personal\FTDI_TO_I2C\app\bin\Debug\net7.0-windows\app.exe
+C:\Personal\FTDI_TO_I2C\app\bin\Debug\net7.0-windows\app.deps.json
+C:\Personal\FTDI_TO_I2C\app\bin\Debug\net7.0-windows\app.runtimeconfig.json
+C:\Personal\FTDI_TO_I2C\app\bin\Debug\net7.0-windows\app.dll
+C:\Personal\FTDI_TO_I2C\app\bin\Debug\net7.0-windows\app.pdb
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.csproj.AssemblyReference.cache
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.AssemblyInfoInputs.cache
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.AssemblyInfo.cs
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.csproj.CoreCompileInputs.cache
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.dll
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\refint\app.dll
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.pdb
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\app.genruntimeconfig.cache
+C:\Personal\FTDI_TO_I2C\app\obj\Debug\net7.0-windows\ref\app.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference to the FTD2XX assembly -->
+    <Reference Include="FTD2XX">
+      <HintPath>C:\Personal\FTDI_TO_I2C\ftd2xx\dll\amd64\ftd2xx.lib</HintPath>
+    </Reference>
+    <Reference Include="FTD2XX_NET">
+      <HintPath>C:\Personal\FTDI_TO_I2C\ftd2xx\FTD2XX_NET_v1.1.0\FTD2XX_NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
