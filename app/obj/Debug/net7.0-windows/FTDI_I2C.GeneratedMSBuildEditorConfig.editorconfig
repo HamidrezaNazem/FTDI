@@ -14,4 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FTDI_I2C
-build_property.ProjectDir = C:\Personal\FTDI_TO_I2C\app\
+build_property.ProjectDir = C:\Users\HamidrezaNazem\MyDocuments\MyRepo\FTDI\app\

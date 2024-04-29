@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\FTDI_TO_I2C\\app\\FTDI_I2C.csproj": {}
+    "C:\\Users\\HamidrezaNazem\\MyDocuments\\MyRepo\\FTDI\\app\\FTDI_I2C.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\FTDI_TO_I2C\\app\\FTDI_I2C.csproj": {
+    "C:\\Users\\HamidrezaNazem\\MyDocuments\\MyRepo\\FTDI\\app\\FTDI_I2C.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\FTDI_TO_I2C\\app\\FTDI_I2C.csproj",
+        "projectUniqueName": "C:\\Users\\HamidrezaNazem\\MyDocuments\\MyRepo\\FTDI\\app\\FTDI_I2C.csproj",
         "projectName": "FTDI_I2C",
-        "projectPath": "C:\\Personal\\FTDI_TO_I2C\\app\\FTDI_I2C.csproj",
+        "projectPath": "C:\\Users\\HamidrezaNazem\\MyDocuments\\MyRepo\\FTDI\\app\\FTDI_I2C.csproj",
         "packagesPath": "C:\\Users\\HamidrezaNazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\FTDI_TO_I2C\\app\\obj\\",
+        "outputPath": "C:\\Users\\HamidrezaNazem\\MyDocuments\\MyRepo\\FTDI\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HamidrezaNazem\\AppData\\Roaming\\NuGet\\NuGet.Config"
